@@ -1,3 +1,64 @@
 .head{
-    background-color: ;
+    background-color: #022660;
+}
+.head .topic .topic-size{
+    position: relative;
+}
+h1{
+    font-family: monst;
+    color: white;
+}
+.head .topic{
+    min-height: 70px;
+    position: relative;
+    padding-top: 40px;
+}
+.topic{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.head .nav-head li a{
+    color: white
+    font-size: 14px;
+    display: block;
+    padding: 4px 6px;
+    font-weight: bold;
+    font-family: arial
+}
+.head .nav-head li{
+    float: left;
+    position: relative;
+    margin: 0 5px;
+    padding-bottom: 14px;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+.head .nav-head ul{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+nav a{
+    display: block;
+}
+.bottom-section{
+    background-color: #022660;
+    color:white;
+}
+.bottom-section li{
+    list-style: none;
+}
+.topic{
+    display:flex;
+}
+.topic .nav-head{
+    position: relative;
+    float: left;
 }
